@@ -1,0 +1,33 @@
+body{
+    margin: 0; 
+    padding: 0;
+}
+
+#section1 {
+     padding: 50px 70px;
+     margin: 50px 100px 50px 700px ;
+     width: 165px;
+     background-color: blue;
+}
+#section2{
+     padding: 50px 30px 50px 70px;
+     margin: 50px 100px 50px 700px;
+     width: 165px;
+     background-color: red;
+}
+#section3{
+     margin: 50px 100px 50px 700px;
+     border: 100px greenyellow solid;
+     width: 300px;
+     border-radius: 30px; 
+}
+#section4{
+     border-bottom-color: blue;
+     border-bottom-width: 5px;
+     border-bottom-style: double;
+     width: 300px;
+}
+#section5{
+     border-bottom: 10px darkgreen dotted;
+     width: 300px;
+}
