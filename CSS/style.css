@@ -1,0 +1,15 @@
+.flex-container{
+    background-color: rgb(231, 80, 80);
+    display: flex;
+   flex-flow: wrap row;
+   justify-content: center;
+   height: 500px;
+   align-items: center;
+}
+.flex-container > div {
+   width: 100px; 
+   background-color: aqua;
+   font-size: 35px;
+    margin: 10px;
+    padding: 20px;
+}
