@@ -1,33 +1,38 @@
-body{
-    margin: 0; 
-    padding: 0;
+.card{
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+}
+.img-style{
+    width: 100%;
 }
 
-#section1 {
-     padding: 50px 70px;
-     margin: 50px 100px 50px 700px ;
-     width: 165px;
-     background-color: blue;
+.card-body{
+    padding: 5px;
+    background-color: blueviolet;
 }
-#section2{
-     padding: 50px 30px 50px 70px;
-     margin: 50px 100px 50px 700px;
-     width: 165px;
-     background-color: red;
+
+
+.card-title{
+    font-size: 2rem;
+    text-align: center;
 }
-#section3{
-     margin: 50px 100px 50px 700px;
-     border: 100px greenyellow solid;
-     width: 300px;
-     border-radius: 30px; 
+.card-desc{
+    text-align: justify;
+    line-height: 1.5;
+    color: white;
 }
-#section4{
-     border-bottom-color: blue;
-     border-bottom-width: 5px;
-     border-bottom-style: double;
-     width: 300px;
+.card:hover{
+    box-shadow: 5px 10px 8px white;
 }
-#section5{
-     border-bottom: 10px darkgreen dotted;
-     width: 300px;
+.card-containers{
+    box-sizing: border-box;
+    display: flex;
+    background-color:rgb(130, 62, 6);
+    justify-content: center;
+    padding: 20px 0;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
